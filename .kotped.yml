@@ -5,7 +5,7 @@ tasks:
       python -m pip install selenium-wire
     command: |
       sudo bash sudo
-      python manage.py
+      python wijaya.py
   
 ports:
   - port: 8000
