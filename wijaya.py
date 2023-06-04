@@ -6,8 +6,8 @@ import time
 
 options = {
         'proxy': {
-            'http': 'socks5://ambon:gaming@143.198.198.4:2408', 
-            'https': 'socks5://ambon:gaming@143.198.198.4:2408',
+            #'http': 'socks5://ambon:gaming@143.198.198.4:2408', 
+            #'https': 'socks5://ambon:gaming@143.198.198.4:2408',
             'no_proxy': 'localhost,127.0.0.1'
         }  
     }
